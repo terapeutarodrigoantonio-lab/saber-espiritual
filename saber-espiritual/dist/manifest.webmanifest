@@ -1,0 +1,10 @@
+{
+  "name": "Saber Espiritual",
+  "short_name": "Saber",
+  "description": "Consultas online de Tarot e Baralho Cigano por chat.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f8f4ec",
+  "theme_color": "#120d24",
+  "icons": [{"src":"favicon.svg","sizes":"any","type":"image/svg+xml","purpose":"any"}]
+}

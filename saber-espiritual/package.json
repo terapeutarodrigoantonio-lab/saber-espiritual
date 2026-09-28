@@ -1,0 +1,11 @@
+{
+  "name": "saber-espiritual",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node --check dist/app.js && node --check netlify/functions/create-checkout.mjs && node --check netlify/functions/mercadopago-webhook.mjs",
+    "dev": "netlify dev"
+  },
+  "engines": { "node": ">=20" }
+}

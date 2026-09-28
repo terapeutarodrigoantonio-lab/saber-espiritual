@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#120d24">
+  <meta name="description" content="Consultas online de Tarot e Baralho Cigano por chat, com pagamento seguro por Pix ou cartão e cobrança transparente por minuto.">
+  <meta name="robots" content="index,follow">
+  <title>Saber Espiritual — Tarot e Baralho Cigano online</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Organization","name":"Saber Espiritual","description":"Consultas online de Tarot e Baralho Cigano por chat.","areaServed":"BR"}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Ir para o conteúdo</a>
+  <div class="notice-bar">Atendimento sigiloso • Pagamento seguro • Você controla seus minutos</div>
+
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Saber Espiritual — início">
+      <span class="brand-mark" aria-hidden="true">✦</span>
+      <span><strong>Saber</strong> Espiritual</span>
+    </a>
+    <nav class="desktop-nav" aria-label="Navegação principal">
+      <a href="#especialistas">Especialistas</a>
+      <a href="#como-funciona">Como funciona</a>
+      <a href="#creditos">Créditos</a>
+      <a href="#duvidas">Dúvidas</a>
+    </nav>
+    <div class="header-actions">
+      <button class="wallet-pill" id="walletButton" type="button" hidden><span id="walletHeader">0</span> min</button>
+      <button class="button button-ghost" id="accountButton" type="button">Entrar</button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="inicio">
+      <div class="hero-content">
+        <span class="eyebrow">Orientação com acolhimento e privacidade</span>
+        <h1>Clareza para o seu momento, no seu tempo.</h1>
+        <p>Converse por chat com especialistas em Tarot e Baralho Cigano. Escolha quem atende você, acompanhe os minutos e encerre quando quiser.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#especialistas">Consultar agora</a>
+          <a class="button button-soft" href="#creditos">Ver pacotes</a>
+        </div>
+        <div class="hero-trust" aria-label="Diferenciais">
+          <span><b>✓</b> Chat reservado</span>
+          <span><b>✓</b> Pix e cartão</span>
+          <span><b>✓</b> Preço visível</span>
+        </div>
+      </div>
+      <div class="hero-art" role="img" aria-label="Cartas de Tarot sobre tecido escuro iluminadas por uma vela"></div>
+    </section>
+
+    <section class="section specialists" id="especialistas" aria-labelledby="specialistsTitle">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">Escolha com tranquilidade</span>
+          <h2 id="specialistsTitle">Especialistas disponíveis</h2>
+        </div>
+        <p>O cronômetro só começa depois que o profissional aceita a consulta.</p>
+      </div>
+      <div class="specialist-grid" id="specialistGrid" aria-live="polite">
+        <article class="specialist-card" data-consultant="rafael-orion">
+          <div class="specialist-top">
+            <div class="avatar avatar-rafael" aria-hidden="true">RO</div>
+            <span class="status online"><i></i> Online</span>
+          </div>
+          <div class="specialist-body">
+            <p class="specialty">Baralho Cigano • Orientação espiritual</p>
+            <h3>Rafael Oríon</h3>
+            <p>Leituras objetivas sobre relacionamentos, decisões, caminhos profissionais e equilíbrio emocional.</p>
+            <div class="rating" aria-label="Avaliação demonstrativa 4,9 de 5"><span>★★★★★</span> <b>4,9</b> <small>perfil inicial</small></div>
+          </div>
+          <footer>
+            <div><strong>1 crédito</strong><small>por minuto</small></div>
+            <button class="button button-primary start-chat" type="button" data-consultant-id="rafael-orion">Conversar</button>
+          </footer>
+        </article>
+
+        <article class="specialist-card" data-consultant="livia-sol">
+          <div class="specialist-top">
+            <div class="avatar avatar-livia" aria-hidden="true">LS</div>
+            <span class="status online"><i></i> Online</span>
+          </div>
+          <div class="specialist-body">
+            <p class="specialty">Tarot • Terapias energéticas</p>
+            <h3>Lívia Sol</h3>
+            <p>Escuta acolhedora e leitura simbólica para questões afetivas, autoestima, escolhas e novos ciclos.</p>
+            <div class="rating" aria-label="Avaliação demonstrativa 5 de 5"><span>★★★★★</span> <b>5,0</b> <small>perfil inicial</small></div>
+          </div>
+          <footer>
+            <div><strong>1 crédito</strong><small>por minuto</small></div>
+            <button class="button button-primary start-chat" type="button" data-consultant-id="livia-sol">Conversar</button>
+          </footer>
+        </article>
+      </div>
+      <p class="ethical-note">As leituras oferecem orientação e reflexão. Não substituem atendimento médico, psicológico, jurídico ou financeiro.</p>
+    </section>
+
+    <section class="section how" id="como-funciona" aria-labelledby="howTitle">
+      <div class="section-heading centered">
+        <span class="eyebrow">Simples e transparente</span>
+        <h2 id="howTitle">Comece em três passos</h2>
+      </div>
+      <div class="steps">
+        <article><span>01</span><h3>Crie sua conta</h3><p>Cadastre seu e-mail e mantenha saldo, conversas e compras organizados.</p></article>
+        <article><span>02</span><h3>Compre minutos</h3><p>Escolha um pacote e pague com segurança pelo Mercado Pago.</p></article>
+        <article><span>03</span><h3>Entre no chat</h3><p>Escolha um especialista online. O saldo é descontado por minuto de atendimento.</p></article>
+      </div>
+    </section>
+
+    <section class="section credits" id="creditos" aria-labelledby="creditsTitle">
+      <div class="section-heading">
+        <div><span class="eyebrow">Sem mensalidade</span><h2 id="creditsTitle">Escolha seus minutos</h2></div>
+        <p>Seus créditos não vencem. A promoção de primeira consulta é liberada uma única vez por conta.</p>
+      </div>
+      <div class="package-grid" id="packageGrid">
+        <article class="package-card promo" data-package="first">
+          <span class="package-label">Primeira consulta</span><h3>7 créditos</h3><p class="package-price"><sup>R$</sup>19<small>,90</small></p><p>7 minutos de conversa</p><button class="button button-dark buy-package" data-package-id="first" type="button">Comprar</button>
+        </article>
+        <article class="package-card" data-package="guidance">
+          <span class="package-label">Orientação</span><h3>15 créditos</h3><p class="package-price"><sup>R$</sup>49<small>,90</small></p><p>15 minutos de conversa</p><button class="button button-dark buy-package" data-package-id="guidance" type="button">Comprar</button>
+        </article>
+        <article class="package-card featured" data-package="complete">
+          <span class="most-popular">Mais escolhido</span><span class="package-label">Leitura completa</span><h3>30 créditos</h3><p class="package-price"><sup>R$</sup>89<small>,90</small></p><p>30 minutos de conversa</p><button class="button button-primary buy-package" data-package-id="complete" type="button">Comprar</button>
+        </article>
+        <article class="package-card" data-package="deep">
+          <span class="package-label">Consulta profunda</span><h3>60 créditos</h3><p class="package-price"><sup>R$</sup>159<small>,90</small></p><p>60 minutos de conversa</p><button class="button button-dark buy-package" data-package-id="deep" type="button">Comprar</button>
+        </article>
+      </div>
+      <div class="payment-line"><span>Pagamento processado com segurança</span><b>Pix</b><b>Cartão</b><b>Mercado Pago</b></div>
+    </section>
+
+    <section class="section account-section" id="minha-conta" hidden aria-labelledby="dashboardTitle">
+      <div class="dashboard-head">
+        <div><span class="eyebrow">Área segura</span><h2 id="dashboardTitle">Minha conta</h2><p id="accountEmail"></p></div>
+        <button class="button button-ghost" id="logoutButton" type="button">Sair</button>
+      </div>
+      <div class="dashboard-grid">
+        <article class="balance-card"><span>Saldo disponível</span><strong><b id="walletBalance">0</b> minutos</strong><a href="#creditos" class="button button-primary" id="addCreditsButton">Adicionar créditos</a></article>
+        <article class="dashboard-card"><h3>Consulta em andamento</h3><div id="activeSessionSummary" class="empty-mini">Nenhuma consulta ativa.</div></article>
+        <article class="dashboard-card"><h3>Atividade recente</h3><div id="transactionList" class="empty-mini">Nenhuma movimentação.</div></article>
+        <article class="dashboard-card reader-controls" id="readerControls" hidden>
+          <h3>Meu atendimento</h3>
+          <p id="readerStatusText" class="empty-mini">Você está offline.</p>
+          <div class="reader-status-actions" aria-label="Alterar disponibilidade">
+            <button class="button button-primary" type="button" data-reader-status="online">Ficar online</button>
+            <button class="button button-ghost" type="button" data-reader-status="offline">Ficar offline</button>
+          </div>
+          <small>Ao ficar online, clientes poderão solicitar uma consulta.</small>
+        </article>
+      </div>
+      <section class="admin-panel" id="adminPanel" hidden>
+        <div class="section-heading"><div><span class="eyebrow">Administração</span><h2>Gerenciar atendentes</h2></div><p>Cadastre novos profissionais e configure a apresentação pública.</p></div>
+        <form id="consultantForm" class="admin-form">
+          <label>Nome público<input name="public_name" required placeholder="Nome fictício"></label>
+          <label>E-mail de acesso<input name="email" type="email" required placeholder="profissional@email.com"></label>
+          <label>Senha provisória<input name="password" type="password" minlength="8" required></label>
+          <label>Especialidades<input name="specialty" required placeholder="Tarot • Baralho Cigano"></label>
+          <label class="wide">Apresentação<textarea name="bio" required rows="3" maxlength="300"></textarea></label>
+          <button class="button button-primary wide" type="submit">Criar atendente</button>
+        </form>
+        <div id="adminConsultants"></div>
+      </section>
+    </section>
+
+    <section class="section confidence" aria-labelledby="confidenceTitle">
+      <div><span class="eyebrow">Uma conversa reservada</span><h2 id="confidenceTitle">Você decide quanto tempo precisa.</h2><p>O saldo fica visível durante todo o atendimento. Se a conexão dos dois lados cair, a contagem é pausada automaticamente.</p></div>
+      <ul><li><span>✓</span> Conversas protegidas por conta</li><li><span>✓</span> Histórico acessível somente aos participantes</li><li><span>✓</span> Encerramento disponível a qualquer momento</li></ul>
+    </section>
+
+    <section class="section faq" id="duvidas" aria-labelledby="faqTitle">
+      <div class="section-heading"><div><span class="eyebrow">Informações importantes</span><h2 id="faqTitle">Dúvidas frequentes</h2></div></div>
+      <div class="faq-list">
+        <details><summary>Quando a cobrança começa?</summary><p>Somente quando o especialista aceita a solicitação e os dois entram na sala de atendimento.</p></details>
+        <details><summary>O que acontece quando os créditos terminam?</summary><p>O chat é pausado. Você pode encerrar ou comprar outro pacote para continuar a conversa.</p></details>
+        <details><summary>Posso pedir reembolso?</summary><p>Pagamentos duplicados ou falhas comprovadas serão analisados conforme nossa política de reembolso e a legislação aplicável.</p></details>
+        <details><summary>As leituras garantem resultados?</summary><p>Não. As leituras são interpretativas e servem como orientação e reflexão. Nenhum resultado específico é prometido.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="brand footer-brand"><span class="brand-mark">✦</span><span><strong>Saber</strong> Espiritual</span></div>
+    <p>Orientação simbólica com respeito, sigilo e transparência.</p>
+    <nav aria-label="Informações legais"><a href="termos.html">Termos de uso</a><a href="privacidade.html">Privacidade</a><a href="reembolso.html">Reembolsos</a></nav>
+    <small>© <span id="year"></span> Saber Espiritual. Serviço destinado a maiores de 18 anos.</small>
+  </footer>
+
+  <dialog class="modal auth-modal" id="authDialog">
+    <button class="modal-close" type="button" data-close-dialog aria-label="Fechar">×</button>
+    <div class="auth-brand"><span class="brand-mark">✦</span><h2>Acesse o Saber Espiritual</h2><p>Entre para comprar minutos e conversar com os especialistas.</p></div>
+    <div class="auth-tabs" role="tablist"><button class="active" type="button" data-auth-tab="login">Entrar</button><button type="button" data-auth-tab="signup">Criar conta</button></div>
+    <form id="loginForm" class="auth-form">
+      <label>E-mail<input name="email" type="email" autocomplete="email" required></label>
+      <label>Senha<input name="password" type="password" autocomplete="current-password" required></label>
+      <button class="button button-primary" type="submit">Entrar</button>
+      <button class="text-button" id="forgotPassword" type="button">Esqueci minha senha</button>
+    </form>
+    <form id="signupForm" class="auth-form" hidden>
+      <label>Nome<input name="name" autocomplete="name" required maxlength="80"></label>
+      <label>E-mail<input name="email" type="email" autocomplete="email" required></label>
+      <label>Senha<input name="password" type="password" autocomplete="new-password" minlength="8" required><small>Mínimo de 8 caracteres.</small></label>
+      <label class="accept"><input name="terms" type="checkbox" required><span>Li e aceito os <a href="termos.html" target="_blank">Termos de uso</a> e a <a href="privacidade.html" target="_blank">Política de privacidade</a>.</span></label>
+      <button class="button button-primary" type="submit">Criar conta</button>
+    </form>
+  </dialog>
+
+  <aside class="chat-drawer" id="chatDrawer" aria-hidden="true" aria-labelledby="chatConsultantName">
+    <header class="chat-header">
+      <button class="icon-button" id="closeChat" type="button" aria-label="Fechar conversa">←</button>
+      <div><h2 id="chatConsultantName">Consulta</h2><p id="chatStatus">Aguardando especialista</p></div>
+      <div class="timer"><span id="chatTimer">00:00</span><small><b id="chatCredits">0</b> min restantes</small></div>
+    </header>
+    <div class="chat-security">🔒 Somente você e o especialista podem acessar esta conversa.</div>
+    <div class="messages" id="messageList" aria-live="polite"></div>
+    <form class="chat-form" id="messageForm">
+      <label class="sr-only" for="messageInput">Mensagem</label>
+      <textarea id="messageInput" rows="1" maxlength="1000" placeholder="Digite sua mensagem..." required></textarea>
+      <button type="submit" aria-label="Enviar mensagem">Enviar</button>
+    </form>
+    <footer class="chat-footer"><button class="danger-link" id="endSessionButton" type="button">Encerrar consulta</button><button class="text-button" id="chatAddCredits" type="button">Comprar minutos</button></footer>
+  </aside>
+  <div class="backdrop" id="backdrop" hidden></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <div class="demo-banner" id="demoBanner" hidden>Modo de demonstração — conecte os serviços para receber pagamentos reais.</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
+  <script src="app.js" defer></script>
+</body>
+</html>
